@@ -7,9 +7,9 @@ A. CUSTOMIZE WINDOWS TERMINAL
    2. Open Terminal Poweshell
    3. Install nerd font https://www.nerdfonts.com/
    4. Install scoop https://scoop.sh/
-	👀 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
-	👀 # or shorter
-	👀 iwr -useb get.scoop.sh | iex
+      👀 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+      👀 # or shorter
+      👀 iwr -useb get.scoop.sh | iex
    5. Install starshiop
 	👀 scoop install starship
 	👀 notepad $PROFILE
