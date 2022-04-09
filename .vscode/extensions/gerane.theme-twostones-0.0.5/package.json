@@ -1,0 +1,35 @@
+{
+	"name": "Theme-TwoStones",
+	"displayName": "TwoStones Theme",
+	"description": "TwoStones Theme ported from the TwoStones TextMate Theme",
+	"version": "0.0.5",
+	"publisher": "gerane",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"homepage": "https://github.com/gerane/VSCodeThemes/blob/master/gerane.Theme-TwoStones/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gerane/VSCodeThemes.git"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "TwoStones",
+				"path": "./themes/TwoStones.tmTheme",
+				"uiTheme": "vs-dark"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "02e1d969-1c00-491d-8cb2-052d1f483fb4",
+		"publisherId": "a5c25faf-bf60-4941-81b9-9a852b96c5fb",
+		"publisherDisplayName": "gerane",
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1644062980522
+	}
+}

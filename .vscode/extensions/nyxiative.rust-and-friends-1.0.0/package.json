@@ -1,0 +1,39 @@
+{
+	"name": "rust-and-friends",
+	"displayName": "Rust and Friends",
+	"description": "The extensions I use for Rust development, though they aren't all Rust specific.",
+	"publisher": "nyxiative",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.53.0"
+	},
+	"categories": [
+		"Extension Packs",
+		"Programming Languages",
+		"Snippets",
+		"Linters",
+		"Debuggers",
+		"Formatters",
+		"Language Packs"
+	],
+	"extensionPack": [
+		"lorenzopirro.rust-flash-snippets",
+		"ZhangYue.rust-mod-generator",
+		"vadimcn.vscode-lldb",
+		"evgeniypeshkov.syntax-highlighter",
+		"CoenraadS.bracket-pair-colorizer-2",
+		"bungcip.better-toml",
+		"serayuzgur.crates",
+		"matklad.rust-analyzer",
+		"dustypomerleau.rust-syntax",
+		"PolyMeilex.rust-targets",
+		"JScearcy.rust-doc-viewer"
+	],
+	"__metadata": {
+		"id": "4d09e0f4-39bc-4c2c-bc0b-44edc2964942",
+		"publisherId": "3c1ee580-8793-464e-ab77-53e594ca5f50",
+		"publisherDisplayName": "Nyxiative",
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1644062752367
+	}
+}

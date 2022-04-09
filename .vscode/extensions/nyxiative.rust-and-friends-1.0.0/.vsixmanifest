@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Language="en-US" Id="rust-and-friends" Version="1.0.0" Publisher="nyxiative"/>
+    <DisplayName>Rust and Friends</DisplayName>
+    <Description xml:space="preserve">The extensions I use for Rust development, though they aren&#39;t all Rust specific.</Description>
+    <Tags>rust</Tags>
+    <Categories>Extension Packs,Programming Languages,Snippets,Linters,Debuggers,Formatters,Language Packs</Categories>
+    <GalleryFlags>Public</GalleryFlags>
+    <Badges></Badges>
+    <Properties>
+      <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.53.0" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="lorenzopirro.rust-flash-snippets,ZhangYue.rust-mod-generator,vadimcn.vscode-lldb,evgeniypeshkov.syntax-highlighter,CoenraadS.bracket-pair-colorizer-2,bungcip.better-toml,serayuzgur.crates,matklad.rust-analyzer,dustypomerleau.rust-syntax,PolyMeilex.rust-targets,JScearcy.rust-doc-viewer" />
+      <Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="workspace" />
+      <Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+      
+      
+      
+      
+      
+      <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+      
+      
+      
+    </Properties>
+    
+    
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+  </Installation>
+  <Dependencies/>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+    <Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" /><Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" />
+  </Assets>
+</PackageManifest>
