@@ -97,7 +97,7 @@ C. SETTUNG UP TOOLS FOR RUST
 	   👀 Remote - WSL
 	   👀 Remote - Containers
 	   👀 Remote - SSH
-    	🚀 Install Theme 
+	🚀 Install Theme 
 	   👀 Material Icon Theme by Philipp Kief
 	   👀 Helium Icon Theme by Halgard Richard Ferreira
 	   👀 The Best Theme by Jan Kohlbach
