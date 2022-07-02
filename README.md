@@ -7,42 +7,66 @@ A. CUSTOMIZE WINDOWS TERMINAL
    2. Open Terminal Poweshell
    3. Install nerd font https://www.nerdfonts.com/
    4. Install scoop https://scoop.sh/
+      
       👀 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
       
       👀 # or shorter
       
       👀 iwr -useb get.scoop.sh | iex
+      
    5. Install starshiop
 	👀 scoop install starship
+	
 	👀 notepad $PROFILE
+	
 	add this script in Microsoft.PowerShell_profile.ps1
 	Invoke-Expression (&starship init powershell)
+	
 	👀 $PROFILE
+	
 	👀 ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+	
 	👀 mkdir ~\Documents\PowerShell
+	
 	👀 notepad Microsoft.PowerShell_profile.ps1
+	
     6. Terminal Setting
 	🚀 Font
+	
 	🚀 Themes
 
 
 B. CONFIGURING WSL2 IN WINDOWS 10/11
    1. Enabled hyper-v on BIOS
    2. turn windows features on or off
+
    	🚀 ✔virtual machine platform 
+
    	🚀 ✔windows subsystem for linux
+
    	🚀 restart
+	
    3. download update wsl version 2
+
    	🚀 https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
    	🚀 https://docs.microsoft.com/en-us/windows/wsl/install-manual
+	
    4. install ubuntu subsystem from microsoft store
    5. Set WSL version
+  
    	🚀 Open PowerShell
+	
 	   👀 wsl -l -v
+	   
 	   👀 wsl --set-version Ubuntu-20.04 2
+	   
 	   👀 wsl --set-default-version 2
+	   
    6. Update Package
+
 	🚀 Open ubuntu subsystem
+
 	   👀 lsb_release -a
 	   👀 sudo apt update && upgrade
    7. WSL Help & Shutdown from PowerShell
