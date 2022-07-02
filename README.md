@@ -16,8 +16,10 @@ A. CUSTOMIZE WINDOWS TERMINAL
  
       👀 scoop install starship
       👀 notepad $PROFILE
+      
       add this script in Microsoft.PowerShell_profile.ps1
       Invoke-Expression (&starship init powershell)
+      
       👀 $PROFILE
       👀 ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
       👀 mkdir ~\Documents\PowerShell
