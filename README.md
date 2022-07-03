@@ -13,13 +13,14 @@ A. CUSTOMIZE WINDOWS TERMINAL
    5. Install starship
 	
 	👀 scoop install starship
-	👀 mkdir ~\c\users\username\.pwsh
-	👀 cd ~\c\users\username\.pwsh
-	👀 notepad Microsoft.PowerShell_profile.ps1
+	👀 $PROFILE
+	👀 ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+	👀 mkdir ~\Documents\PowerShell
+	👀 notepad ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 	# add this script in Microsoft.PowerShell_profile.ps1
-	# or copy my configuration file
 	Invoke-Expression (&starship init powershell)
-  
+	# or copy my configuration file
+	
    6. Terminal Setting
  	
 	🚀 Font
