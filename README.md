@@ -25,11 +25,12 @@ A. CUSTOMIZE WINDOWS TERMINAL
 	   👀 notepad ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 	🚀 Copy my configuration file 📝 .starship\starhsip.toml
 	   👀 cp C:\Users\username\Downloads\.starship\starhsip.toml C:\Users\username\.starship\starhsip.toml
-	🚀 Terminal Settings
+	🚀 Open my configuration file  📝 WindowsTerminal\settings.json & copy
 	   👀 notepad C:\Users\username\Downloads\WindowsTerminal\settings.json
- 	   👀 notepad C:\Users\username\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-
-
+	🚀 Go to terminal and press [CTRL + ,] for Terminal Settings
+	🚀 Open JSON File, select all [CTRL + A] and paste here [CTRL + V],  Save & exit
+	🚀 Add new tab in terminal and tadaaaa..!!! your terminal looks powerfull
+	   
 
 B. CONFIGURING WSL2 IN WINDOWS 10/11
    1. Enabled hyper-v on BIOS
