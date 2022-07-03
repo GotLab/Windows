@@ -11,7 +11,7 @@ A. CUSTOMIZE WINDOWS TERMINAL
 	   📝 .starship\starhsip.toml
 	   📝 PowerShell\Microsoft.PowerShell_profile.ps1
 	   📝 WindowsTerminal\settings.json
-	🚀 Download & Install nerd font https://www.nerdfonts.com/
+	🚀 Install nerd font https://www.nerdfonts.com/
 	   📝 HackNerdFont\*
 	🚀 Open notepad & setting default font
 	🚀 Open Terminal 
