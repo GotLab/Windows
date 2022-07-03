@@ -37,8 +37,7 @@ format = "at [$path]($style)[$read_only]($read_only_style) "
 
 [rust]
 format = "via [$symbol($version )]($style)"
-#version_format = "v${raw}"
-version = "v1.43.0-🐉"
+version_format = "v${raw}-🐉"
 symbol = "🦀 "
 detect_extensions = ["rs"]
 detect_files = ["Cargo.toml"]
