@@ -22,11 +22,10 @@ A. CUSTOMIZE WINDOWS TERMINAL
 	   👀 $PROFILE
 	   👀 ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 	   👀 mkdir ~\Documents\PowerShell
-	   👀 notepad ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
-	🚀 Copy my configuration file 📝 .starship\starhsip.toml
-	   👀 cp C:\Users\username\Downloads\.starship\starhsip.toml C:\Users\username\.starship\starhsip.toml
-	🚀 Open my configuration file  📝 WindowsTerminal\settings.json & copy
-	   👀 notepad C:\Users\username\Downloads\WindowsTerminal\settings.json
+	   👀 cp ~\Downloads\PowerShell\Microsoft.PowerShell_profile.ps1 ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+	   👀 cp ~\Downloads\.starship\starhsip.toml C:\Users\username\.starship\starhsip.toml
+	   👀 notepad ~\Downloads\WindowsTerminal\settings.json
+	🚀 Copy all script [CTRL + A], [CTRL + C] & Exit
 	🚀 Go to terminal and press [CTRL + ,] for Terminal Settings
 	🚀 Open JSON File, select all [CTRL + A] and paste here [CTRL + V],  Save & exit
 	🚀 Add new tab in terminal and tadaaaa..!!! your terminal looks powerfull
