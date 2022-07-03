@@ -3,28 +3,32 @@
 PREPARING AND SETTINGS WINDOWS FOR RUST PROGRAMMING
 
 A. CUSTOMIZE WINDOWS TERMINAL
-   1. Download Terminal App & Powershell in microsoft store
-   2. Open Terminal Poweshell
-   3. Install nerd font https://www.nerdfonts.com/
-   4. Install scoop https://scoop.sh/
+  
+  ⚙ Tools & configuration files
+ 
+  	🚀 Download Terminal App & Powershell in microsoft store
+	🚀 Download my configuration files & extract
+	   📝 .starship\starhsip.toml
+	   📝 PowerShell\Microsoft.PowerShell_profile.ps1
+	   📝 WindowsTerminal\settings.json
+	🚀 Download & Install nerd font https://www.nerdfonts.com/
+	   📝 HackNerdFont\*
+	🚀 Open notepad & setting default font
+	🚀 Open Terminal 
+	🚀 Install scoop https://scoop.sh/
+	   👀 irm get.scoop.sh | iex
+	🚀 Install starship https://starship.rs/
+	   👀 scoop install starship 
+	   👀 $PROFILE
+	   👀 ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+	   👀 mkdir ~\Documents\PowerShell
+	   👀 notepad ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+	🚀 Copy my configuration file 📝 .starship\starhsip.toml
+	   👀 cp C:\Users\username\Downloads\.starship\starhsip.toml C:\Users\username\.starship\starhsip.toml
+	🚀 Terminal Settings
+	   👀 notepad C:\Users\username\Downloads\WindowsTerminal\settings.json
+ 	   👀 notepad C:\Users\username\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
 
-	👀 irm get.scoop.sh | iex
-	
-   5. Install starship
-	
-	👀 scoop install starship
-	👀 $PROFILE
-	👀 ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
-	👀 mkdir ~\Documents\PowerShell
-	👀 notepad ~\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
-	# add this script in Microsoft.PowerShell_profile.ps1
-	Invoke-Expression (&starship init powershell)
-	# or copy my configuration file
-	
-   6. Terminal Setting
- 	
-	🚀 Font
-	🚀 Themes
 
 
 B. CONFIGURING WSL2 IN WINDOWS 10/11
