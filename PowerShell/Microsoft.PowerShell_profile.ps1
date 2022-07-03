@@ -1,4 +1,4 @@
-$ENV:STARSHIP_CONFIG = "C:\Users\wasdo\.starship\starship.toml"
+$ENV:STARSHIP_CONFIG = "C:\Users\username\.starship\starship.toml"
 $ENV:STARSHIP_DISTRO = 
 "█▀▀ █▀█ ▀█▀ █░░ ▄▀█ █▄▄
 █▄█ █▄█ ░█░ █▄▄ █▀█ █▄█ "
